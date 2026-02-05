@@ -1,16 +1,14 @@
 :root {
-    /* Barvy - Element Store Style */
-    --primary: #e62117;       /* Agresivní červená */
+    --primary: #e62117;       
     --primary-hover: #b3120b;
-    --dark-bg: #121212;       /* Téměř černá */
-    --card-bg: #1e1e1e;       /* Tmavě šedá pro karty */
-    --text-main: #f5f5f5;     /* Bílá pro text */
-    --text-muted: #a0a0a0;    /* Šedá pro popisky */
+    --dark-bg: #121212;       
+    --card-bg: #1e1e1e;       
+    --text-main: #f5f5f5;     
+    --text-muted: #a0a0a0;    
     --border-color: #333333;
     
-    /* Fonty a velikosti */
     --font-stack: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     --container-width: 1240px;
     --header-height: 80px;
-    --radius: 4px;            /* Ostré hrany pro agresivní vzhled */
+    --radius: 4px;            
 }
