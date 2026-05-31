@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Košík - Doprava | MTB ELEMENT</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header class="main-header"><div class="container header-flex"><a href="index.html" class="logo">GRAVITY<span>SHOP</span></a></div></header>
+    
+    <main class="container">
+        <h1 style="margin-top:20px;">Košík (2/3): Doprava a platba</h1>
+        <div class="cart-layout">
+            <form action="kosik-krok3.html">
+                <h3>Doprava</h3>
+                <label style="display:block; padding:15px; background:#1e1e1e; margin-bottom:10px; border:1px solid #333; cursor:pointer;">
+                    <input type="radio" name="doprava" checked> PPL Kurýr (+90 Kč)
+                </label>
+                <label style="display:block; padding:15px; background:#1e1e1e; margin-bottom:10px; border:1px solid #333; cursor:pointer;">
+                    <input type="radio" name="doprava"> Osobní odběr (ZDARMA)
+                </label>
+
+                <h3 style="margin-top:30px;">Platba</h3>
+                <label style="display:block; padding:15px; background:#1e1e1e; margin-bottom:10px; border:1px solid #333; cursor:pointer;">
+                    <input type="radio" name="platba" checked> Kartou online
+                </label>
+                <label style="display:block; padding:15px; background:#1e1e1e; margin-bottom:10px; border:1px solid #333; cursor:pointer;">
+                    <input type="radio" name="platba"> Dobírka (+49 Kč)
+                </label>
+
+                <div style="margin-top:20px; display:flex; gap:10px;">
+                    <a href="kosik-krok1.html" class="btn btn-outline">Zpět</a>
+                    <button type="submit" class="btn">Pokračovat na shrnutí ></button>
+                </div>
+            </form>
+            
+             <div class="order-summary" style="background:#1e1e1e; padding:20px; border:1px solid #333; height:fit-content;">
+                <h3>V košíku:</h3>
+                <p>1x Santa Cruz V10 <span style="float:right;">210 000 Kč</span></p>
+                <p style="font-size:1.2rem; font-weight:bold; margin-top:10px;">Celkem: 210 000 Kč</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            &copy; 2026 MTB GRAVITY SHOP<br>
+            Created for downhill
+        </div>
+    </footer>
+</body>
+</html>
